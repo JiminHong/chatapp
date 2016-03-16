@@ -42,6 +42,7 @@
 	<img ng-src="{[{ authData.facebook.profileImageURL || authData.google.profileImageURL}]}" />
 	<p>{[{ authData.facebook.displayName || authData.google.displayName || authData.password.email}]}</p>
 </div> -->
+<div class="chatwrapper">
 <div class="row">
 	<div class="intro-text">
 		<!-- Group Info & Message  -->
@@ -60,10 +61,10 @@
 		</form>
 
 		<!-- Inviting group members -->
-		<form class="form-inline form-group" ng-submit="addMember()">
+		<!-- <form class="form-inline form-group" ng-submit="addMember()">
 			<input type="text" ng-model="memberUsername" placeholder="Invite member" class="form-control">
 			<button class="btn btn-default" type="submit">Invite</button>
-		</form>
+		</form> -->
 
 		<!-- See group members -->
 		<h4>Group members</h4>
@@ -71,4 +72,5 @@
 			<p>{[{memberUsername.memberUsername}]}</p>
 		</div>
 	</div>
+</div>
 </div>
