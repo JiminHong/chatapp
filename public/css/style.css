@@ -89,7 +89,12 @@ html, body {
 header{
     min-height: 100%;
 }
-
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 500px;
+    text-align: left;
+    margin-left: 20px;
+}
 .table-striped>tbody>tr:nth-of-type(odd) {
     background-color: grey;
 }
